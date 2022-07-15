@@ -2,18 +2,21 @@
   display: flex;
   justify-content: space-between;
   background-color: #F26868;
-  padding: 0.5em;
   align-items: center;
+  height: 50px;
 }
 
 .list {
   display: flex;
   list-style: none;
   align-items: center;
+  margin-right: 5px;
+  width: auto;
 }
 
 .item {
   margin-right: 30px;
+  margin-top: 15px;
 }
 
 .item a {

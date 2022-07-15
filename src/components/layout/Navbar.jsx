@@ -1,17 +1,17 @@
 import styles from "./Navbar.module.css";
-import perfil from '../../images/Perfil.png'
+
 function Navbar() {
   return (
     <>
       <div>
         <nav className={styles.navbar}>
-          <a className={`text-white ${styles.logo}`}>Traz Pra Mim</a>
+          <a className={`text-white ${styles.logo}`} href='/'>Traz Pra Mim</a>
           <ul className={styles.list}>
             <li className={styles.item}>
-              <a href="">Encontrar Viagens</a>
+              <a href='/findtravel'>Encontrar Viagens</a>
             </li>
             <li className={styles.item}>
-              <a href="">Viagens</a>
+              <a href="/travels">Viagens</a>
             </li>
             <li className={styles.item}>
               <a href="">Meus Interesses</a>
