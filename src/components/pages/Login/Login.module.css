@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFD8D8;
+    width: 30%;
+    height: 300px;
+    border: 1px solid;
+}
+
+.logindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F26868;
+    color: white;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-bottom-color: black;
+}
+
+.googlebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.acesse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}

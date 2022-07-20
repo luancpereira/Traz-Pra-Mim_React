@@ -5,7 +5,7 @@ function Navbar() {
     <>
       <div>
         <nav className={styles.navbar}>
-          <a className={`text-white ${styles.logo}`} href='/'>Traz Pra Mim</a>
+          <a className={`text-white ${styles.logo}`} href='/home'>Traz Pra Mim</a>
           <ul className={styles.list}>
             <li className={styles.item}>
               <a href='/findtravel'>Encontrar Viagens</a>
