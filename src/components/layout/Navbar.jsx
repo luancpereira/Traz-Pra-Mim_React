@@ -14,10 +14,10 @@ function Navbar() {
               <a href="/travels">Viagens</a>
             </li>
             <li className={styles.item}>
-              <a href="">Meus Interesses</a>
+              <a href="/travels">Meus Interesses</a>
             </li>
             <li className={styles.item}>
-              <a href="">Reservados</a>
+              <a href="/travels">Reservados</a>
             </li>
           </ul>
         </nav>
